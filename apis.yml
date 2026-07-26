@@ -1,23 +1,66 @@
 aid: democracy-earth
 name: Democracy Earth
-description: Democracy Earth is a company surfaced as a portfolio company of y-combinator and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Democracy Earth Foundation is a Y Combinator- and Fast Forward-backed
+  501(c)(3) nonprofit building free, open-source, blockchain-based software for incorruptible
+  digital governance and voting. Its flagship Sovereign application is a liquid-democracy
+  platform that lets communities vote directly on issues or delegate their voting power
+  to trusted peers over a decentralized, censorship-resistant network. The Foundation
+  also develops self-sovereign identity (a proof-of-humanity protocol), a universal
+  basic income token, and a minimal quadratic-voting DAO, publishing all of its work
+  as open-source repositories rather than as a commercial, hosted API. Democracy Earth
+  is a protocol-first, decentralized project without a hosted REST API or developer program.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://github.com/DemocracyEarth.png
 url: https://raw.githubusercontent.com/api-evangelist/democracy-earth/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - y-combinator
+- fast-forward
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Governance
+- Voting
+- Blockchain
+- Democracy
+- Decentralized Identity
+- Open Source
+- Web3
+- Nonprofit
 apis: []
+common:
+- type: DomainSecurity
+  url: security/democracy-earth-domain-security.yml
+- type: Website
+  url: https://democracy.earth
+- type: GitHubOrganization
+  url: https://github.com/DemocracyEarth
+- type: Documentation
+  url: https://democracyearth.github.io/docs/docs/main
+- type: Blog
+  url: https://medium.com/@DemocracyEarth
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
